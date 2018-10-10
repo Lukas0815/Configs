@@ -199,5 +199,5 @@ bindsym XF86AudioPrev exec playerctl previous
 exec_always feh --bg-scale /home/lukas/Bilder/Hintergrundbilder/scared_cat_dark.jpg  #load wallpaper with feh
 exec compton -f #ocapacy and fancy transitions
 exec albert
-#exec firefox #uncommend to start firefox when launch i3
+exec dropbox start
 exec --no-startup-id nm-applet
