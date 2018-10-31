@@ -54,7 +54,7 @@ ZSH_THEME="agnoster"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
-source $ZSH/oh-my-zsh.sh
+#source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
@@ -86,8 +86,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export TERM=xterm-256color
-if [[ -r /usr/local/lib/python2.7/dist-packages/powerline/bindings/zsh/powerline.zsh ]]; then
-	source /usr/local/lib/python2.7/dist-packages/powerline/bindings/zsh/powerline.zsh
+if [[ -r /usr/local/lib/python3.6/dist-packages/powerline/bindings/zsh/powerline.zsh ]]; then
+	source /usr/local/lib/python3.6/dist-packages/powerline/bindings/zsh/powerline.zsh
 fi
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
